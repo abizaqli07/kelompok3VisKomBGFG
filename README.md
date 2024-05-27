@@ -16,7 +16,7 @@
  <ol>
     <li>Operasi morfologi -> Dengan memanfaatkan jenis operasi morfologi dan ukuran kernel yang berbeda-beda, dapat menghilangkan noise serta memperbaiki hasil segmentasi.</li>
     <li>Kernel filter -> Dengan mengubah kernel filter Gaussian dapat mempengaruhi seberapa halus atau tajam hasil segmentasi. Dengan menggunakan kernel lebih kecil, menghasilkan segmentasi yang lebih tajam, detail lebih terlihat, namun menjadi lebih banyak noise. Sedangkan dengan menggunakan kernel lebih besar, menghasilkan segmentasi yang lebih halus, mengurangi noise, namun mengaburkan detail.</li>
-    <li>Algoritma segmentasi -> Dengan menggunakan parameter algoritma segmentasi yang tepat, dapat meningkatkan akurasi deteksi foreground. Dengan menggunakan parameter algoritma segmentasi yang lebih sensitif dapat mendeteksi perubahan kecil antara foreground dan background tetapi juga lebih rentan terhadap noise.</li>
+    <li>Algoritma segmentasi -> Dengan menggunakan parameter algoritma segmentasi (seperti history, varthreshold, detectshadow) yang tepat, dapat meningkatkan akurasi deteksi foreground. Dengan menggunakan parameter algoritma segmentasi yang lebih sensitif dapat mendeteksi perubahan kecil antara foreground dan background tetapi juga lebih rentan terhadap noise.</li>
  </ol>
  </p>
 <br>
